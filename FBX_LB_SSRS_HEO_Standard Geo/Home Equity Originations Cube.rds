@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Home Equity Originations Cube">
+  <ConnectionProperties>
+    <Extension>OLEDB-MD</Extension>
+    <ConnectString>Data Source=USEFBXPRDBI01;Initial Catalog="Home Equity Originations Level 1"</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>7c95d94c-e0db-4ffc-99c2-c82c99dc127f</DataSourceID>
+</RptDataSource>
