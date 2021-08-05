@@ -1424,8 +1424,8 @@
         <CommandText>select
 	WeekendingDate
 from
-	[174.120.103.50].lendershare.dbo.latestweek lw
-	left outer join [174.120.103.50].lendershare.dbo.holidays h
+	lendershare.dbo.latestweek lw
+	left outer join lendershare.dbo.holidays h
 		on datepart("dw", holidaydate) between 2 and 3
 	and (datediff("day",lw.weekendingdate, holidaydate)) between 0 and 4 
 where
